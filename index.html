@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GoldSikka</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/js/main.js">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" >
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+<body>
+
+	<!-- top bar -->
+	<nav class="navbar navbar-light bg-dark" style="height: 68px;">	
+		<a class="navbar-brand">  <img src="assets/img/goldsikka-logo.png" style="padding:  0 0 60px 40px;"></a>
+		<form class="form-inline" style="padding:  0 30px 60px 60px;">
+		
+				<!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+				<!-- <button type="button" class="btn btn-warning">Warning</button> -->
+			<button type="button" class="btn btn-warning  fa fa-user-plus"><a href="">SignUp</a></button>			
+			<button type="button" class="btn btn-warning  fa fa-sign-in"><a href="">Login</a></button>		
+		</form>
+	</nav>
+	  <!-- .navbar -->
+	
+	  <nav class="navbar navbar-expand-lg navbar-light "  style="background-color: #e3f2fd;">
+
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  About Us
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="#">About Us</a>
+				  <a class="dropdown-item" href="#">Licences & certificates</a>
+				  <a class="dropdown-item" href="#">Business Associates</a>
+				  <a class="dropdown-item" href="#">Careers</a>
+				</div>
+			  </li>	  	
+			<li class="nav-item">
+				<a class="nav-link" href="#">Jewels Store</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Buy Gold</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Sell Gold</a>
+			  </li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Latest updates
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="#"> Live Prices </a>
+				<a class="dropdown-item" href="#">  Gold Rate trend </a>
+				<a class="dropdown-item" href="#"> Blog  </a>
+				<a class="dropdown-item" href="#">  Achivements </a>
+				<a class="dropdown-item" href="#">  News </a>
+				<!-- <div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Something else here</a> -->
+			  </div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Jewels World</a>
+			  </li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  RI
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="#">  Reverse Integration </a>
+				  <a class="dropdown-item" href="#">  Banking </a>
+				  <a class="dropdown-item" href="#">  Vaulting </a>
+				  <a class="dropdown-item" href="#"> Refining  </a>
+				  <a class="dropdown-item" href="#"> Mining  </a>
+				  <!-- <div class="dropdown-divider"></div>
+				  <a class="dropdown-item" href="#">Something else here</a> -->
+				</div>
+			  </li>
+	
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Cantact
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="#"> Contact us  </a>
+				  <a class="dropdown-item" href="#">  Individual Purchase enquiry </a>
+				  <a class="dropdown-item" href="#">  Business enquiry </a>
+				  <a class="dropdown-item" href="#">  Feedback </a>
+				</div>
+			  </li>
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  </form>
+		</div>
+	  </nav>
+	
+	<!-- carousel -->
+
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img class="d-block w-100" src=" assets/img/gold-blocks.jpg" style="height: 400px;"alt="First slide">
+		  </div>
+		  <div class="carousel-item">
+			<img class="d-block w-100" src=" assets/img/v-buy-gold.jpg" style="height: 400px;" alt="Second slide">
+		  </div>
+		  <div class="carousel-item">
+			<img class="d-block w-100" src="assets/img/ornam.jpg "style="height: 400px;" alt="Third slide">
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators"  role="button" data-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators"  role="button" data-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </div>
+			  
+	<!-- carousel end -->
+
+	<!-- price end -->
+
+
+  <style>
+    #blink {
+        font-size: 20px;
+        font-weight: bold;
+        color: hsl(0, 91%, 50%);
+        transition: 0.5s;
+    }
+</style>
+<style>
+  #blink {
+      -webkit-animation: blink 1s step-end infinite;
+              animation: blink 1s step-end infinite;
+  }
+  @-webkit-keyframes blink { 50% { visibility: hidden; }}
+          @keyframes blink { 50% { visibility: hidden; }}
+</style>
+
+
+
+<section>
+    <h5 class="text-center"><div class="spinner-grow " style="width: 1.2rem; height: 1.2rem;color: hsl(0, 91%, 50%); " role="status">
+        <span class="visually-hidden"></span>
+      </div>Live Prices</h5>
+    <div class="pricing-area">
+        <div class="container">   
+<div class="row">
+    <div class="col-md-4 ">
+<div class="card text-center  card border-primary mb-3" style="max-width: 20rem; ">
+    <div class="card-header border-success">
+        <h4 class="heading">24K Gold</h4>
+    </div>
+    <div class="card-body">
+        <h6>999 Purity</h6>
+        <h5 class="price">
+        <span> <a id="blink"> ₹ </a>
+        5,044.19
+        <span>/ gram</span>
+        </span>
+        </h5>
+      <a href="#" class="btn btn-primary">Know More</a>
+    </div>
+    <div class="card-footer text-muted border-success">
+        Order Now
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+    <div class="card text-center card border-primary mb-3" style="max-width: 20rem;">
+        <div class="card-header border-success">
+            <h4 class="heading">22K Gold</h4>
+        </div>
+        <div class="card-body">
+          <!-- <h5 class="card-title">22k Gold</h5> -->
+        <h6>916 Purity</h6>
+        <h5 class="price">
+        <span> <a id="blink"> ₹ </a>
+            
+        4,625.10
+        <span>/ gram</span>
+        </span>
+        </h5>
+          <a href="#" class="btn btn-primary">Know More</a>
+        </div>
+        <div class="card-footer text-muted border-success">
+            Order Now
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-center card border-primary mb-3" style="max-width: 20rem;">
+            <div class="card-header border-success">
+              <!-- SILVER -->
+               <h4 class="heading">SILVER</h4>
+            </div>
+            <div class="card-body">
+                <h6>999 Purity</h6>
+        <h5 class="price">
+        <span> <a id="blink"> ₹ </a>
+        66,696.12
+        <span>/ kg</span>
+        </span>
+        </h5>
+              <!-- <h5 class="card-title">Special title treatment</h5> -->
+              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+            <div class="card-footer text-muted border-success">
+              Order Now
+            </div>
+          </div>
+        </div>
+
+</div>
+        </div>    
+    </div>    
+    </section>
+
+	<!-- Gold Hub Images -->
+
+			<div class="container ">
+				<div class="box mt-2 mb-2 section-heading text-center">
+					<h2>Gold Hub</h2>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="bg  ">
+								<img src="assets/img/gold-hub-1.jpg" style="    border: 5px solid rgb(8, 59, 12); 
+								border-width: 10px 10px 4px 5px; 
+							   border-radius:20% 20% 20% 20%   "  class="shadow">
+							<div class="name-head">                            
+									<div class="card-body">                                                                    
+									  <h6 class="list-group-item " style="color: #394ca0;">GOLD</h6>
+									</div>                              
+							</div>
+						</div>
+						</div>
+						<div class="col-md-4">
+							<div class="bg  ">								
+								<img src="assets/img/gold-hub-2.jpg "
+								style="    border: 5px solid rgb(8, 59, 12); 
+								border-width: 10px 10px 4px 5px; 
+							   border-radius:20% 20% 20% 20%   "class="shadow"> 
+							   <div class="name-head">                            
+								<div class="card-body">                                                                
+								  <h6 class="list-group-item " style="color: #394ca0;">SILVER</h6>
+								</div>                              
+								</div>                                               
+							</div>                                                                 
+						</div>
+						<div class="col-md-4">
+							<div class="bg ">
+								<img src="assets/img/gold-hub-3.jpg" style="    border: 5px solid rgb(8, 59, 12); 
+								  border-width: 10px 10px 4px 5px; 
+								 border-radius:20% 20% 20% 20%   "  class="shadow">  
+							</div>
+							<div class="name-head">                            
+								<div class="card-body">                                  
+								  <h6 class="list-group-item " style="color: #394ca0;">GEMS</h6>
+								  <!-- <button type="button" class="btn btn-link">Link</button> -->
+								</div>                              
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+
+	<!-- Jewellery -->
+	<div class="container">
+        <div class="box mt-2 mb-2 section-heading text-center">
+            <h2>Jewellery</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="bg">
+                        <a href=" ">
+                            <!-- <img src="assets/img/da-zoon-image.jpg" class="shadow"> -->
+                            <img src="assets/img/da-zoon-logo-home.png
+                            " style="height: 150px; width: 180px;  border-radius:70% 65% 70% 65%" class="shadow">  
+                        </a>
+                    </div>
+                    <div class="name-head">
+                        <a href="#" class="button">KNOW MORE                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg">
+                        <a href="#">
+                            <!-- <img src="assets/img/gs-ornam-image.jpg" class="shadow"> -->
+                            <img src="assets/img/ornam-logo-home.png" style="
+                           height: 150px; width: 180px;  border-radius:70% 65% 70% 65%  "  class="shadow">  
+                        </a>
+                    </div>
+                    <!-- <div class="name-head">
+                        <a href="#">
+                            <p> KNOW MORE</p>
+                        </a>
+                    </div> -->   
+                    <div class="name-head">
+                        <a href="#" class="button">KNOW MORE                            
+                        </a>
+                    </div>                 
+
+                </div>
+                <style>
+                 .button {
+                    text-transform: uppercase;
+                    border-top: 1px solid #1a2e22;
+                    border-bottom: 1px solid #1a2e22;
+                    padding: 10px 20px;
+                } 
+                </style>
+                <div class="col-md-3">
+                    <div class="bg">
+                        <a href="/queen-fine-jewellery">
+                            <!-- <img src="assets/img/queen-image.jpg" class="shadow"> -->
+                            <img src="assets/img/queen-logo-home.png" style="height: 150px; width: 180px;  border-radius:70% 65% 70% 65%"  class="shadow">  
+                        </a>
+                    </div>                   
+                    <div class="name-head">
+                        <a href="#" class="button">KNOW MORE                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="bg">
+                        <a href="/queen-fine-jewellery">
+                            <!-- <img src="assets/img/queen-image.jpg" class="shadow"> -->
+                            <img src="assets/img/white-rose-logo-home.png" style="  
+                            
+                            height: 150px; width: 180px;  border-radius:70% 65% 70% 65%  "  class="shadow">  
+                        </a>
+                    </div>
+                    <div class="name-head">
+                    </div>
+                    <div class="name-head">
+                        <a href="#" class="button">KNOW MORE                            
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+<!-- flexi plans -->
+<section class="bg-secondary">
+  <style type="text/css"> 
+    .body{ 
+        background-color: #2c3e50; font-family: lato; 
+    } 
+    .details{
+      margin: 20px 0; 
+      background-color: #fff; 
+      padding: 30px 20px;
+       position: relative; 
+       z-index: 1; 
+    }
+
+ .details h2{ 
+     font-size: 22px; 
+     text-transform: uppercase; transition: 0.6s all; 
+ }
+ .details p{ 
+     font-size: 14px; 
+     transition: 0.6s all; 
+ }
+ .details a{
+  text-decoration: none; 
+  text-transform: capitalize; 
+  color: rgb(84, 236, 13);
+   background-color: #2c3e50;
+   padding: 6px 12px;
+  display: inline-block; 
+  font-size: 14px; 
+  border: 1px solid #2c3e50; 
+  transition: 0.6s all; 
+ } 
+ .details::before{ 
+     content: "";
+      width: 5px; 
+      height: 100%; 
+      background-color: #ff5722;
+      position: absolute;
+      Left: 0; 
+      top: 0; 
+      z-index: -1; 
+      transition: 0.6s all;
+ }
+.details:hover::before{ 
+width: 100%; 
+} 
+.details:hover h2,.details:hover p{ 
+color: rgba(233, 120, 205, 0.61); 
+}
+.details:hover a{ 
+background-color: transparent; 
+border: 1px solid rgba(218, 204, 11, 0.637);
+}
+</style>
+
+ <div class="container"> 
+     <div class="row section-heading text-center">
+      <!-- <div class="section-heading text-center"> -->
+          <h4><kbd>Gold Flexi Plans</kbd></h4>
+          <!-- <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p> -->
+      <!-- </div> -->
+      <div class="col-md-4"> 
+          <div class="details"> 
+              <h2>My Gold 2021</h2>
+              <ul class="pb-4">
+                  <li class="fa fa-hand-o-right"></i> Best Systematic Purchase Plan [SPP]</li>
+                  <li class="fa fa-hand-o-right"></i> 25% Discount on value<br> addition</li>
+                  <li class="fa fa-hand-o-right"></i> 6,12,18,24 Months of Tenure</li>
+              </ul>
+               <a href="#">read more</a> 
+         </div>
+      </div>
+
+ 
+         <div class="col-md-4"> 
+             <div class="details"> 
+                 <h2>Gold Suvidha</h2> 
+                 <ul class="pb-4">
+                  <!-- <i class="fa fa-thumbs-up" aria-hidden="true"></i> -->
+                  <li class="fa fa-hand-o-right"> Minimum amount starts from Rs.50</li>
+                  <li class="fa fa-hand-o-right"> Payment can be made on Daily / Weekly /
+                      Monthly
+                      Basis
+                  </li>
+                  <li class="fa fa-hand-o-right"></i> No fixed period & No fixed amount</li>
+              </ul>
+                 <a href="#">read more</a> 
+             </div>
+          </div> 
+              <div class="col-md-4"> 
+                  <div class="details"> 
+                      <h2>Gold
+                          Plus</h2> 
+
+                          <ul class="pb-4">
+                              <li class="fa fa-hand-o-right"></i> One Month Installment free</li>
+                              <li class="fa fa-hand-o-right"></i> 50% Discount on VA</li>
+                              <li class="fa fa-hand-o-right"></i> Minimum amount start<br> from Rs 1000/-</li>
+                          </ul>
+              
+                      <a href="#">read more</a> 
+                  </div>
+              </div>
+</div>
+</div>
+</section>
+
+<!-- Suvidha -->
+<style>
+  .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(204, 37, 37, 0.5)), url("assets/img/bt3.jpg") 
+    fixed center center;
+    height: 50%;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+</style>
+  
+  
+  <section  class="cta" style="height: 300px;">  
+        <div class= "text-center">
+          <h2 class="text-white">Gold Suvidha</h2>
+          <h4 class="text-primary">Open your Gold Suvidha Account and Start Buying Gold</h4>
+          <a class="cta-btn btn btn-warning" href="#">Read More</a>
+          <!-- <button type="button" class="btn btn-success">Success</button> -->
+          <!-- <div class="p-3 mb-2 bg-light text-dark">.bg-light</div> -->
+        </div>  
+  </section>
+  <!-- Suvidha -->
+
+ <!--Main layout-->
+ <main class="my-5">
+  <div class="container">
+    <!--Section: Content-->
+    <section class="text-center">
+      <h2 class="mb-5"><strong>Goldsikka Products</strong></h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="logo">
+            <div class="card-body">
+      <h1 class="card-title">Discover Our
+         New Designs</h1>
+              <p class="text">
+        Discover the latest new designs we think  you'll love..</p>
+              <a href="#!" class="btn btn-primary">VIEW ALL PRODUCTS</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" >
+    <div id="carousel-13" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">		
+        <div class="carousel-item active">
+        <img class="d-block img-fluid" src="assets/img/buy-gold-coin.jpg" >
+        </div>				  
+        <div class="carousel-item">
+        <img class="d-block img-fluid" src="assets/img/gold-jewellery-shop-near-by-me.jpg">
+        </div>
+        <div class="carousel-item">
+        <img class="d-block img-fluid" src="assets/img/gold-pendants.jpg" >
+        </div>
+        <div class="carousel-item">
+        <img class="d-block img-fluid" src="assets/img/buy-gold-nosepins.jpg" >
+        </div>
+        <div class="carousel-item">
+        <img class="d-block img-fluid" src="assets/img/buy-gold-coin-online.jpg" >
+        </div>
+        <div class="carousel-item">
+        <img class="d-block img-fluid" src="assets/img/best-gold-jewellery-shop.jpg" >
+        </div>
+        <div class="carousel-item">
+        <img class="d-block img-fluid" src="assets/img/latest-gold-nosepins-designs.jpg" >
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="col-lg-4 col-md-6 mb-4" >
+    <div id="carousel" class="carousel slide" data-ride="carousel" >
+       <div class="carousel-inner" role="listbox" >
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="assets/img/gold-coin-price.jpg" >
+        </div>
+        <div class="carousel-item">
+    <img class="d-block img-fluid" src="assets/img/buy-gold-bangles.jpg">
+        </div>			          
+        <div class="carousel-item">
+    <img class="d-block img-fluid" src="assets/img/latest-gold-pendants.jpg" >
+        </div>
+    <div class="carousel-item">
+    <img class="d-block img-fluid" src="assets/img/buy-gold-nosepins-online.jpg" >
+        </div>
+    <div class="carousel-item">
+    <img class="d-block img-fluid" src="assets/img/buy-gold-coins-near-by-me.jpg" >
+        </div>
+    <div class="carousel-item">
+    <img class="d-block img-fluid" src="assets/img/latest-gold-bangles-online.jpg" >
+        </div>
+    <div class="carousel-item">
+    <img class="d-block img-fluid" src="assets/img/buy-gold-pendants.jpg" >
+        </div>
+    <div class="carousel-item">
+    <img class="d-block img-fluid" src="assets/img/latest-nosepins-designs.jpg" >
+        </div>
+      </div>			        
+      </div>		
+    </div>
+        </div>
+      </div> 
+    </section>
+  </div>
+</main>
+<!-- end -->
+
+  
+<!-- client-->
+
+<section class="purity-section pt-4 pb-4">
+  <div class="container "> 
+      <div class="row card"> 
+          <div class="col-md-12" >
+              <div class="box">
+                  <div class="row" >
+                      <div class="col-md-12 ">
+                          <div class="field text-center">
+                              <div class="row">
+                                  <div class="col-md-2">
+                                      <img src="assets/img/purity-of-gold.png" style="height: 130px; width: 130px;" class="icon">
+                                  </div>
+                                  <div class="col-md-10">
+                                      <h2 class="">Purity</h2>
+                                      <p class="text-left">Goldsikka Assure To Customers that We Only Source 24k (999
+                                          Purity)
+                                          Gold.</p>
+                                  </div>
+                              </div>
+                              <hr>
+
+                              <div class="row">
+                                  <div class="col-md-2">
+                                      <img src="assets/img/gold-coin-security.png" style="height: 130px; width: 130px;"
+                                      class="icon" >
+                                  </div>
+                                  <div class="col-md-10">
+                                      <h2>Security</h2>
+                                      <p class="text-left">In the view of Safety and Security of your Gold, We
+                                          partnered
+                                          with
+                                          "BRINKS INDIA" a World Class Vault Management Service Provider.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>                        
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- end -->
+
+<style>
+  .atc {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(204, 37, 37, 0.5)), url("assets/img/bt4.jpg") fixed center center;
+    height: 50px;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+  </style>
+  
+  
+  <section id="atc" class="atc" style="height: 20%;">
+      <div class="container" >
+  
+        <div class="text-center">
+          <h1 class="text-white">Refer & Earn</h1>
+          <h4  class="text-primary">Invite Friends & Family to Goldsikka and Earn Gold</h4>
+          <a class="atc-btn btn btn-warning " href="#">Read More</a>
+        </div>
+  
+      </div>
+    </section>
+
+
+<!-- #our media carousel -->
+
+<section class="color pt-5 mb-5">
+	<div class="container">
+		<div class="row">
+			<div class="text-center"><h2>Our Gallery & Media</h2></div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-5">			
+				<div id="carousel-10" class="carousel slide" data-ride="carousel">
+			        <div class="carousel-inner" role="listbox">			
+			          <div class="carousel-item active">
+			            <img class="d-block img-fluid" src="assets/img/loose-control.jpg" >
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid"  src="assets/img/latest-gold-plan.jpg">
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid"  src="assets/img/gold-purchase-plan.jpg" >
+			          </div>
+			        </div>
+				</div>			
+			</div>			
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-5">			
+				<div id="carousel-11" class="carousel slide" data-ride="carousel">
+			        <div class="carousel-inner" role="listbox">			
+			          <div class="carousel-item active">
+			            <img class="d-block img-fluid"  src="assets/img/gold-chase-plan.jpg" >
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid"  src="assets/img/best-gold-plan-in-hyderabad.jpg" >
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid"  src="assets/img/latest-gold-ornaments.jpg" >
+			          </div>
+			        </div>       
+				</div>			
+			</div>			
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl3 mb-5">			
+				<div id="carousel-12" class="carousel slide" data-ride="carousel">			 			       
+			        <div class="carousel-inner" role="listbox">			
+			          <div class="carousel-item active">
+			            <img class="d-block img-fluid" src="assets/img/gal-1.jpg" style="height: 150px; width: 240px;" >
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid" src="assets/img/gal-2.jpg" style="height: 150px; width: 240px;">
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid"  src="assets/img/gal-3.jpg" style="height: 150px; width: 240px;">
+			          </div>
+			        </div> 
+				</div>			
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-5">			
+				<div id="carousel-13" class="carousel slide" data-ride="carousel">
+			        <div class="carousel-inner" role="listbox">			
+			          <div class="carousel-item active">
+			            <img class="d-block img-fluid"  src="assets/img/gal-4.jpg" style="height: 150px; width: 240px;">
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid"  src="assets/img/gal-5.jpg"style="height: 150px; width: 240px;" >
+			          </div>			          
+			          <div class="carousel-item">
+			            <img class="d-block img-fluid"  src="assets/img/gal-6.jpg" style="height: 150px; width: 240px;">
+			          </div>
+			        </div>			        
+				</div>			
+			</div>			
+		</div>
+	</div>
+</section>
+<!-- end -->
+
+
+     <!-- ======= Blog Section ======= -->
+     <section id="blog" class="blog">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="text-center">Blogs</h2>
+          
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-8">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/imports-made-up-eighty-six-of-indias-gold.png"                     
+                  style="   height: 170px;width: 200px; 
+                 border-radius:10% 10% 10% 10%" class="img-fluid" alt=""></div>
+
+                  <!-- <img src="assets/img/gold-hub-1.jpg" style="    border: 5px solid rgb(8, 59, 12); 
+                  border-width: 10px 10px 4px 5px; 
+                 border-radius:20% 20% 20% 20%   "  class="shadow"> -->
+
+              <div class="member-info">
+                <h6>Imports Made Up 86% Of India's Gold Supply From <br> 2016-2020, Says WGC</h6>
+                <!-- <span>Chief Medical Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p> -->
+
+                <p> According to a World Gold Council report,<br>bullion banking is one of the key pillars
+                 to address mulple challenges<br> faced by India's gold market, such as a lack of quality assurance, ...</p>
+                 <button type="button" class="btn btn-outline-success">READ MORE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+              <!-- https://goldsikka.com/images/imports-made-up-eighty-six-of-indias-gold.png -->
+              <div class="member-info">
+                <h5>NBFCS Seek Extension Of MSME <br> Restructuring Scheme Till March 2022</h5>
+                <span>Gold Mining</span>
+                <p>India's gold imports increase by 23%-</p>                  
+                <button type="button" class="btn btn-outline-success">VIEW MORE</button>                                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog Section -->
+
+<!-- Our Customers -->
+    <div class="container" style="width: 1800px; height: 250px;">
+     <h1 class="box mt-2 mb-2 section-heading text-center">Our Customers</h1>
+     <div class="slider" style="background:rgba(133, 194, 105, 0.637)">       
+       <!-- <div class="slider" style="background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(204, 37, 37, 0.5))"> -->
+       <div class="item"><a href="#"><img src="assets/img/goldsikka-capsgold.png"alt="" style="height: 150px; width: 180px;"></a> </div>
+       <div class="item"><a href="#"><img src="assets/img/goldsikka-sbi.png"alt=""style="height: 150px; width: 180px;"></a> </div>
+       <div class="item"><a href="#"><img src="assets/img/goldsikka-sequel.png"alt=""style="height: 150px; width: 180px;"></a> </div>
+       <div class="item"><a href="#"><img src="assets/img/goldsikka-hdfc.png"alt=""style="height: 150px; width: 180px;"></a> </div>
+       <div class="item"><a href="#"><img src="assets/img/goldsikka-bis.png"alt=""style="height: 150px; width: 180px;"></a> </div>
+       <div class="item"><a href="#"><img src="assets/img/goldsikka-razorpay.png"alt=""style="height: 150px; width: 180px;"></a> </div>
+       <!-- <div class="item"><a href="#"><img src="assets/img/goldsikka-my-kyc-bank.png"alt=""style="height: 150px; width: 180px;"></a> </div> -->
+       <div class="item"><a href="#"><img src="assets/img/goldsikka-my-kyc-bank.png"alt=""style="height: 150px; width: 180px;"></a> </div>
+       <!-- <div class="item"><a href="#"><img src="assets/img/"alt=""></a> </div> -->
+       
+     </div>  
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script type="text/javascript">
+    // $('.slider').slick();
+    
+  $('.slider').slick({
+    
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots:true,
+    arrow:true,
+    autoplay:true,
+    autoplaSpeed:10000,
+    infinite: true,
+  
+  });
+  
+  </script>   
+
+    <!-- Office Section -->
+
+
+    <div class="office">
+
+      <hr class="f-line">
+      <div class="row">
+
+          <div class="col-md-4 pb-3 pl-3 pr-3">
+              <div class="address">
+                  <h2>Registered Office :</h2>
+                  <p>Goldsikka Limited #3-5-573, Himayatnagar ,<br>Hyderabad, Telangana <br>500029 India.</p>
+              </div>
+          </div>
+          <div class="col-md-4 pb-3 pl-3 pr-3">
+              <div class="address">
+                  <h2>Admin Office :</h2>
+                  <p>Goldsikka Limited 1st Floor, #3-5-171/1/2, Narayanguda Near Melkote park, Hyderabad,
+                      Telangana 500029 India.</p>
+              </div>
+          </div>
+          <div class="col-md-4 pb-3 pl-3 pr-3">
+              <div class="address">
+                  <h2>Tech labs :</h2>
+                  <p>Goldsikka Limited # 301 Jyothi Enclave, Kavuri Hills, Phase lll, Hitech City, Hyderabad,
+                      Telangana 500081 India.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+  </section>
+</div>
+
+
+ <!-- end -->
+
+
+
+
+ <div id="onPage-popUp" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content prompt-box">
+          <div class="modal-header">
+              <h4 class="modal-title pb-2">Contact Us :</h4><br>
+
+              <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+
+          </div>
+          <div class="modal-body">
+
+              <form id="popupEnquForm" method="post" action="javascript:void(0)">
+                  <input type="hidden" name="_token" value="1Srgjp6V9SjD35dHQ5zBvEQCS9s5f2pgoYpUms3A">                        <div class="row">
+                      <div class="col-md-12">
+                          <div class="alert alert-success d-none alert-dismissible fade show" id="msg_div">
+
+                              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                  <span id="res_message" class=""></span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <!-- <label>Name : <span class="text-danger">*</span></label> -->
+                      <input type="text" name="name" id="name" placeholder="Enter Name"
+                          class="form-control bg-color">
+                      <span class="text-danger "></span>
+                  </div>
+                  <div class="form-group">
+                      <!-- <label>Email : <span class="text-danger">*</span></label> -->
+                      <input type="email" name="email" placeholder="Enter Email" id="email"
+                          class="form-control bg-color">
+                      <span class="text-danger "></span>
+                  </div>
+                  <div class="form-group">
+                      <!-- <label>Mobile Number : <span class="text-danger">*</span></label> -->
+                      <input type="text" name="mobile" placeholder="Enter Mobile Number" id="mobile"
+                          class="form-control bg-color">
+                      <span class="text-danger "></span>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-6 subit">
+                          <button type="submit" id="popupEnqSubmit" disabled="false"
+                              class="btn btn-block btn-primary">
+                              Submit
+                          </button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+<script src="/js/app.js?id=c679c4aeb5682bc9bbde"></script>
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class=" my-5">
+
+<footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+<!-- Grid container -->
+<div class="container p-4">
+  <!--Grid row-->
+  <div class="row mt-4">
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+      <h5 class="text-uppercase mb-4">About company</h5>
+
+      <p>
+          Goldsikka Limited is part of a diversified three decades old Aztar Group. Est.
+           in 1990, which specializes in Print Media, Tech Application, Insurance Broking, Data Analytics, Ecommerce,
+           Non Tangible Asset Management, Property Underwriting, Corporate Law Advisory and Activations.
+      </p>
+
+  
+
+      <div class="mt-4">
+        <!-- Facebook -->
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fa fa-facebook-f"></i></a>
+        <!-- Dribbble -->
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fa fa-dribbble"></i></a>
+        <!-- Twitter -->
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fa fa-twitter"></i></a>
+        <!-- Google + -->
+        
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fa fa-google-plus-square"></i></a>
+        <!-- Linkedin -->
+      </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+      <div class="form-outline form-white mb-4">
+        <input type="text" id="formControlLg" class="form-control form-control-lg">
+        <label class="form-label" for="formControlLg" style="margin-left: 0px;">Search</label>
+      <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 48.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+      <ul class="fa-ul" style="margin-left: 1.65em;">
+        <li class="mb-3">
+          <!-- <i class="fa fa-home" aria-hidden="true"></i> -->
+          <span class="fa-li"><i class="fa fa-home"></i></span><span class="ms-2"># 301 Jyothi Enclave,</span>
+        </li>
+        <li class="mb-3">
+          <span class="fa-li"><i class="fa fa-envelope"></i></span><span class="ms-2">goldsikka@example.com</span>
+        </li>
+        <li class="mb-3">
+          <span class="fa-li"><i class="fa fa-phone"></i></span><span class="ms-2">+91 8954789222</span>
+        </li>
+        <li class="mb-3">
+          <span class="fa-li"><i class="fa fa-print"></i></span><span class="ms-2">+ 040 234 567 89</span>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+      <table class="table text-center text-white">
+        <tbody class="font-weight-normal">
+          <tr>
+            <td>Mon - Thu:</td>
+            <td>9:30am - pm</td>
+          </tr>
+          <tr>
+            <td>Fri - Sat:</td>
+            <td>9:30 - 6:30</td>
+          </tr>
+          <tr>
+            <td>Sunday:</td>
+            <td>9am - 10pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Grid column-->
+  </div>
+  <!--Grid row-->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(82, 54, 54, 0.2);">
+  © 2020 Copyright:
+  <a class="text-white" href="https://goldsikka.com/">GoldSikka</a>
+</div>
+<!-- Copyright -->
+</footer>
+
+</div>
+<!-- End of .container -->
+
+
+
+
+
+
+</body>
+</html>
+
+
